@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title></title>
+
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="custom/custom.css" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="custom/gruvbox-dark.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- Here starts your presentation -->
+
+        <section>
+          Single Horizontal Slide<br />
+          With a link to <a href="#/some-slide">another</a>
+          <aside class="notes" data-markdown>
+            Notes for me, in md _if I want_
+          </aside>
+        </section>
+
+        <section>
+          <section>Vertical Slide 1</section>
+          <section id="some-slide">Vertical Slide 2</section>
+        </section>
+
+        <section
+          data-markdown="content.md"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n"
+          data-separator-notes="^Note:"
+          data-charset="utf-8"
+        ></section>
+
+        <section>
+          Hey
+        </section>
+
+        <section>
+          New asdfasdfas
+          <pre><code data-trim data-line-numbers="3">
+          const a = 23
+          const a = 23
+          const a = 23
+          const a = 23
+          const a = 23
+          const a = 23
+          </code></pre>
+        </section>
+
+        <section>
+          <div style="float: left;">
+            blab lba lfs blaf lbad fblad flba dfl badlfb
+          </div>
+          <div style="float: right;">
+            balfbadfbdf adf bdf badfa df af ga fdg
+          </div>
+        </section>
+
+        <!-- Here ends your presentation -->
+      </div>
+    </div>
+
+    <script src="js/reveal.js"></script>
+
+    <script>
+      Reveal.initialize({
+        hash: true,
+        history: true,
+        controls: true,
+        progress: true,
+        navigationMode: "default",
+        transition: "slide",
+        transitionSpeed: "default",
+        backgroundTransition: "none",
+        dependencies: [
+          { src: "plugin/markdown/marked.js" },
+          { src: "plugin/markdown/markdown.js" },
+          { src: "plugin/highlight/highlight.js", async: true },
+          { src: "plugin/notes/notes.js", async: true }
+        ]
+      });
+    </script>
+  </body>
+</html>
