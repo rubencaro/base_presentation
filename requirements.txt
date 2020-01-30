@@ -1,0 +1,7 @@
+docutils==0.16
+hovercraft==2.6
+lxml==4.5.0
+pathtools==0.1.2
+Pygments==2.5.2
+svg.path==4.0.2
+watchdog==0.10.0
