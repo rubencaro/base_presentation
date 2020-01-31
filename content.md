@@ -1,10 +1,10 @@
-# Slide 1 <!-- .element: style="color: aquamarine;" -->
+# Slide 1
 
-Hola qué tal?
+* Hola qué tal?
+* blablbabl
+* asdfasdf
 
 
-
-<!-- .slide: data-background="#ff0000" -->
 # Slide 2.1
 
 This is content.
