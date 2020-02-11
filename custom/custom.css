@@ -2,17 +2,17 @@
  * Custom theme for reveal.js.
  */
 
- @font-face {
+@font-face {
     font-family: 'Fira Sans';
-    src: url('../../lib/font/FiraSans-Regular.otf');
+    src: url('./FiraSans-Regular.otf');
 }
 @font-face {
     font-family: 'Fira Sans Condensed';
-    src: url('../../lib/font/FiraSansCondensed-Regular.otf');
+    src: url('./FiraSansCondensed-Regular.otf');
 }
 @font-face {
     font-family: 'Fira Mono';
-    src: url('../../lib/font/FiraMono-Regular.otf');
+    src: url('./FiraMono-Regular.otf');
 }
 /*********************************************
  * GLOBAL STYLES
