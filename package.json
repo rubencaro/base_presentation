@@ -2,10 +2,8 @@
   "name": "base_presentation",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "browser-sync . -w",
-    "publish": ""
+    "start": "browser-sync . -w"
   },
   "repository": {
     "type": "git",
@@ -18,8 +16,15 @@
   },
   "homepage": "https://github.com/rubencaro/base_presentation#readme",
   "dependencies": {
+    "reveal.js": "^3.9.2"
+  },
+  "devDependencies": {
     "browser-sync": "^2.26.7",
-    "reveal.js": "^3.9.2",
-    "web-resource-inliner": "^4.3.4"
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
   }
 }
