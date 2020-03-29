@@ -1,0 +1,21 @@
+= Presentation template
+
+== Install
+
+Install `asciidoctor`, `asciidoctor-pdf` and `rouge` on your system.
+
+For Fedora that means:
+
+ sudo dnf install asciidoctor rubygem-asciidoctor-pdf rubygem-rouge
+
+== Develop
+
+Edit the `content.adoc` file.
+
+To build the PDF run `./build.sh`. That will produce `content.pdf`.
+
+To keep rebuilding the PDF with each change run `./watch.sh`
+
+== Reference
+
+Go to https://asciidoctor.org/docs/

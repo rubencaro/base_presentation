@@ -1,0 +1,61 @@
+= Presentation Template - This is the title 
+:pdf-theme: custom-theme.yml
+:pdf-fontsdir: fonts
+:pdf-page-layout: landscape
+:source-highlighter: rouge 
+:imagesdir: images
+:data-uri:
+:title-page:
+:toc:
+
+== Slide 1
+
+* Hola qué tal?
+* blablbabl
+* asdfasdf
+
+<<<
+
+=== Slide 1.2
+
+Here they go, notes footnote:[The double hail-and-rainbow level makes my toes tingle.]
+
+<<<
+
+=== Slide 1.3
+
+[source,ruby,linenums]
+----
+module ABC do
+  def a do
+    blablabal # <1>
+  end
+
+  def b do
+    blebleble
+  end
+end
+----
+<1> Hey you there
+
+<<<
+
+== Slide 2
+
+Hey
+
+<<<
+
+=== Slide 2.1
+
+.Here it comes
+The text itself dfg sdfg sdfg sdfg sdfg sdfg 
+sdfg sdfgsdfbsdfb sdfb
+
+<<<
+
+
+== Notes
+
+// This gets filled in with any footnotes pointed in the text, but just because in pdf they are rendered as endnotes.
+
