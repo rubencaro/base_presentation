@@ -1,3 +1,5 @@
 content.html
 *.swp
-
+.vscode
+node_modules
+slides.pdf
